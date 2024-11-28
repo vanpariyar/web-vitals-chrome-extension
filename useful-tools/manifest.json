@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Google Sheet to JSON/JSONL",
+    "version": "1.0",
+    "description": "Convert Google Sheets to JSON or JSONL format",
+    "permissions": ["activeTab", "scripting", "downloads"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        
+      }
+    },
+    "host_permissions": ["https://docs.google.com/spreadsheets/*"]
+  }
+  
